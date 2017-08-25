@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="Professional_calculator.Model.PanelOfStandartCalc"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Professional_calculator.Model"
+             mc:Ignorable="d" 
+             d:DesignHeight="150" d:DesignWidth="300">
+    <Border Margin="3" Padding="3" CornerRadius="5" Background="PaleGoldenrod" BorderBrush="AntiqueWhite" BorderThickness="5,3">
+        <UniformGrid Columns="4" Rows="2">
+            <Button Margin="2"/>
+            <Button Margin="2"/>
+            <Button Margin="2"/>
+            <Button Margin="2"/>
+            <Button Margin="2"/>
+            <Button Margin="2"/>
+            <Button Margin="2"/>
+            <Button Margin="2"/>
+        </UniformGrid>
+    </Border>
+</UserControl>
